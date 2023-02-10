@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --black: #080808;
+    --orange: #e58d41;
+}
+
+
+a {
+    color: var(--black);
+    text-decoration: none;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 13px;
+}
+
+h1 {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.container {
+    margin: 0% 5%;
+    padding: 20px 0%;
+}
+
+.container .logo {
+    text-align: center;
+}
+
+.container .logo img {
+    height: 50px;
+}
+
+.container .nav-button-icon {
+    display: none;
+}
+
+.container nav {
+    margin-top: 10px;
+}
+
+.container nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 7px;
+}
+
+ul li a.home {
+    color: var(--orange);
+}
+
+
+
+/* MAIN-BODY SECTION */
+.container .main_body {
+    margin-top: 5px;
+}
+
+
+.container .heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .heading p {
+    font-size: 40px;
+}
+
+.container .heading hr {
+    margin: 10px auto 0px auto;
+    width: 20px;
+}
+
+.container .intro .details {
+    margin-top: 20px;
+}
+
+.container .intro .details p {
+    line-height: 25px;
+}
+
+.container .intro .details img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.container .intro .details .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .intro .details .btn {
+    margin-top: 5px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.container .main_body .image_showcase .images {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .main_body .image_showcase .images img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.container .main_body .history .history_info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* footer section */
+.footer {
+    margin: 0% 3%;
+    padding: 10px 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span {
+    color: var(--orange);
+}
